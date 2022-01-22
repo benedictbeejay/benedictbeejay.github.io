@@ -1,0 +1,211 @@
+ 	body {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 20px 0x 20px;	
+	background-image: url("rest.jpeg");
+	background-size: cover;
+}
+nav {
+	margin: 20px 70px 0px 70px;
+	/*margin: auto;*/
+  	width: 100%;
+	text-align: center;
+	display: inline-block;
+	background-color: red;
+	text-align: center;
+	border-radius: 5px;
+	animation-name: example;
+	animation-duration: 3.5s;
+}
+
+
+
+ul {
+	margin-top: 10px;
+	text-align: center;
+}
+
+li {
+	display: inline-block;	
+	text-align: center;
+	margin-right: 80px;
+	transition: all 1s;
+}
+li:hover {
+	transform: scale(1.2);
+}
+a {
+	text-decoration: none;
+	color: yellow;
+}
+a {
+	text-decoration: none;
+	color: yellow;
+}
+
+a:hover {
+	text-decoration: none;
+	color: yellow;
+}
+@keyframes example {
+	from {
+		opacity: 0.0;
+	}
+	to {
+		opacity: 1.0;
+	}
+}
+
+.container {
+	background-color: yellow;
+	margin-top: 150px;
+	animation-name: example;
+	animation-duration: 3.5s;
+	display: inline-block;
+	text-align: center;
+}
+.c {
+	display: inline-block;
+	font-family: cursive ;
+	justify-content: center;
+	display: inline-block;
+	margin-left: 50px;
+	color: red;
+}
+
+.cc {
+	display: inline-block;
+	margin-left: 150px;
+	margin-top: 50px;
+	margin-right: 150px;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	/*width: 120px;*/
+	padding-left: 50px;
+	margin-bottom: 70px;
+	display: inline-block;
+	animation-name: example;
+	animation-duration: 3.5s;
+	transition: all 1s;
+	margin-top: 20px;
+	
+}
+
+.flex-container:hover {
+	transform: scale(1.2);
+
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	transition: all 1s;
+}
+
+img:hover {
+	border-radius: 5%;
+
+}
+h6 {
+	text-align: center;
+	width: 200px;
+	color: yellow;
+	font: bolder;
+}
+button {
+	margin-top: 70px;
+	height: 50px;
+	margin: auto;
+	width: 20%;
+	text-align: center;
+	animation-name: example;
+	animation-duration: 3.5s;
+}
+.a {
+	animation-name: example;
+	animation-duration: 3.5s;
+	text-decoration: none;
+	color: white;
+}
+
+.a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.f {
+	border-radius: 5px;
+	animation-name: example;
+	animation-duration: 3.5s;
+	background-color: rgba(225, 225, 0, 1.0);
+	box-shadow: 5px solid black;
+	height: 450px;
+	width: 400px;
+	text-align: center;
+	margin: auto;
+	margin-top: 100px;
+
+}
+
+input {
+	width: 300px;
+	animation-name: example;
+	animation-duration: 3.5s;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+
+::placeholder {
+
+	/*font-family: cursive ;*/
+	color: black;
+	margin-left: 5px;
+
+}
+.ff {
+	margin-top: 30px;
+}
+.fff {
+	margin-left: 100px;
+	margin-top: 20px;
+	font-family: cursive;
+	color: red;
+}
+#id {
+	margin-right: 900px;
+	text-align: center;
+}
+
+.btn {
+	width: 200px;
+}
+
+table {
+	animation-name: example;
+	animation-duration: 3.5s;
+	border: 3px solid red;
+	border-collapse: collapse;
+	width: 100%;
+	/*margin: auto;*/
+	/*color: white;*/
+	margin-left:100px;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+tr, td, th {
+	font-family: cursive;
+	/*border: 2px solid grey;*/
+	color: yellow;
+	width: 150px;
+	height: 50px;
+}
+th {
+	
+}
